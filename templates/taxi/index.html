@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Taxi Service Home</h1>
+    <p>Welcome to the Best Taxi Ever!</p>
+    <h2>Here you can see all cars, drivers and manufacturers</h2>
+    <p>Record counts:</p>
+    <ul class="list-group">
+        <li class="list-group-item"><strong>Cars:</strong> {{ num_cars }}</li>
+        <li class="list-group-item"><strong>Drivers:</strong> {{ num_drivers }}</li>
+        <li class="list-group-item"><strong>Manufacturers:</strong> {{ num_manufacturers }}</li>
+    </ul>
+
+    <br>
+
+    <p>You have visited this page
+        {{ num_visits }} time{{ num_visits|pluralize }}.
+    </p>
+
+{% endblock %}
