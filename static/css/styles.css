@@ -4,15 +4,9 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 120%;
 }
-.hr {
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
 h1 {
   font-size: 5.625rem;
-  font-family: 'Square Peg', cursive;
+  font-family: 'Montserrat', cursive;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
